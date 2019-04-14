@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Welcome to Tyler's Trivia</title>
+
+    <div class="jumbotron big-banner">
+        <h1 class="display-4">Tyler's Sport's Trivia!</h1>
+
+</head>
+
+<body>
+
+
+    <form id= "trivia" name="trivia">
+    <div class="container">
+    <p id="some_div">
+    <p>Which team was the Premier League winners for 2017/2018 season?</p>
+    <input type = radio id="questions" name="question1" value="City">Manchester City<br>
+    <input type = radio id="questions" name="question1" value="Spurs">Tottenham Hotspurs<br>
+    <input type = radio id="questions" name="question1" value="United">Manchester United<br>
+    <input type = radio id="questions" name="question1" value="Chelsea">Chelsea<br>
+    <input id = "button" type = "button" value="Submit" onclick="check();"><br>
+    <p id="messages"></p>
+
+
+    <p>Which team won the NFL Super Bowl in the 2017/2018 season?</p>
+    <input type = radio id="questions" name="question2" value="Eagles">Philadelphia Eagles<br>
+    <input type = radio id="questions" name="question2" value="Cowboys">Dallas Cowboys<br>
+    <input type = radio id="questions" name="question2" value="Patriots">New England Patriots<br>
+    <input type = radio id="questions" name="question2" value="Steelers">Pittsburgh Steelers<br>
+    <input id = "button" type = "button" value="Submit" onclick="check();"><br>
+    <p id="messages"></p>
+
+
+    <p>Which city has the most professional championship wins?</p>
+    <input type = radio id="questions" name="question3" value="Boston">Boston<br>
+    <input type = radio id="questions" name="question3" value="Chicago">Chicago<br>
+    <input type = radio id="questions" name="question3" value="losAngeles">Los Angeles/Detriot<br>
+    <input type = radio id="questions" name="question3" value="nyc">New York City<br>
+    <input id = "button" type = "button" value="Submit" onclick="check();"><br>
+    <p id="messages"></p>
+
+    
+    <p>Which English soccer team has the most Premier League wins?</p>
+    <input type = radio id="questions" name="question4" value="Liverpool">Liverpool<br>
+    <input type = radio id="questions" name="question4" value="United">Manchester United<br>
+    <input type = radio id="questions" name="question4" value="Chelsea">Chelsea<br>
+    <input type = radio id="questions" name="question4" value="City">Manchester City<br>
+    <input id = "button" type = "button" value="Submit" onclick="check();"><br>
+    <p id="messages"></p>
+
+
+    <p>What is the most watched sport in the United States?</p>
+    <input type = radio id="questions" name="question5" value="Soccer">Soccer<br>
+    <input type = radio id="questions" name="question5" value="Basketball">Basketball<br>
+    <input type = radio id="questions" name="question5" value="Football">Football<br>
+    <input type = radio id="questions" name="question5" value="Baseball">Baseball<br>
+    <input id = "button" type = "button" value="Submit" onclick="check();"><br>
+    <p id="messages"></p>
+    </div>
+
+
+
+
+    </div>
+    </form>
+
+    <div id="after-submit">
+        <p id="number_correct"></p>
+        <p id="unanswered"></p>
+        <p id="wrong"></p>
+    </div>
+</body>
+
+<script src="Assets/Javascript/app.js"></script>  
+</html>

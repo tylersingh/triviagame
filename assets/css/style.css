@@ -1,0 +1,23 @@
+html {
+    background: url(../images/background.jpg);
+    background-size: cover;
+
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+input {
+    display: block;
+}
+
+#after-submit {
+    visibility: hidden
+}
